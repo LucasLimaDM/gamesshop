@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+h1,
+h2,
+h3{
+    font-family: Bungee;
+    font-weight: normal;
+}
+
+/* container */
+.container{
+    max-width: 1280px;
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+    
+    margin: 0 auto;
+}
+header .container{
+    justify-content: space-between;
+    font-weight: normal;
+    align-items: center;
+}
+#sobreloja > .container {
+    
+    justify-content: flex-start;
+}
+#contato .container{
+    display: block;
+}
+
+/* cabeçalho */
+header{
+    
+    padding: 16px;
+    background-color: #182c61;
+    color: #ecf0f1;
+    font-family: Bungee;
+}
+header nav a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+header nav li,
+#quemsomos li,
+#contato li{
+    display: inline;
+    padding-left: 16px;
+    font-size: 18px;
+}
+
+/* quem somos */
+#quemsomos{
+    width: 25vw;
+    min-width: 300px;
+    max-width: 500px;  
+    margin: 24px 8px 0px 8px; 
+}
+
+#quemsomos li img,
+#contato li img{
+    height: 24px;
+    margin-top: 8px;
+}
+#sobreloja > .container > img{
+    width: 90vw;
+    max-width: 600px;
+    margin: 24px 8px 0px 8px;
+}
+#contato,
+#sobreloja{
+    color: #182c61;
+    font-family: Roboto;
+}
+.contact-methods{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.contact-methods input,
+.contact-methods button,
+.contact-methods textarea{
+    width: 70%;
+    font-family: Roboto;
+    margin-bottom: 8px;
+}
+.contact-methods input,
+.contact-methods button{
+    height: 36px;
+}
+.contact-methods input:focus,
+.contact-methods textarea:focus{
+    outline-color:#182c61;
+}
+
+.contact-methods button{
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+.contact-methods button:hover{
+    background-color: #314e9e;
+}
+.contact-methods textarea{
+    height: 80px;
+}
+.contact-methods div{
+    width: 33%;
+    min-width: 400px;
+    margin-bottom: 16px;
+}
+footer{
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 8px;
+}
+
+
+
